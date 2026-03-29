@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60"
+  role="img" aria-label="CulturalGeeks — Mark and Wordmark">
+  <title>CulturalGeeks</title>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&amp;family=Josefin+Sans:wght@400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- ── COMPASS MARK — centred at (27, 30), r = 21 ─────────── -->
+
+  <!-- Outer ring -->
+  <circle cx="27" cy="30" r="21" fill="none" stroke="#C09030" stroke-width="1"/>
+
+  <!-- Inner tick ring (faint) -->
+  <circle cx="27" cy="30" r="14" fill="none" stroke="#C09030" stroke-width="0.4" opacity="0.25"/>
+
+  <!-- Cross lines -->
+  <line x1="27" y1="10" x2="27" y2="50" stroke="#C09030" stroke-width="0.5" opacity="0.28"/>
+  <line x1="6"  y1="30" x2="48" y2="30" stroke="#C09030" stroke-width="0.5" opacity="0.28"/>
+
+  <!-- Diagonal ticks -->
+  <line x1="12" y1="15" x2="14" y2="17" stroke="#C09030" stroke-width="0.7" opacity="0.3"/>
+  <line x1="42" y1="15" x2="40" y2="17" stroke="#C09030" stroke-width="0.7" opacity="0.3"/>
+  <line x1="12" y1="45" x2="14" y2="43" stroke="#C09030" stroke-width="0.7" opacity="0.3"/>
+  <line x1="42" y1="45" x2="40" y2="43" stroke="#C09030" stroke-width="0.7" opacity="0.3"/>
+
+  <!-- North arrow — kite shape, full gold -->
+  <polygon points="27,9 24.2,21 27,18.5 29.8,21" fill="#C09030"/>
+
+  <!-- South arrow — faded -->
+  <polygon points="27,51 24.2,39 27,41.5 29.8,39" fill="#C09030" opacity="0.32"/>
+
+  <!-- East arrow — faded -->
+  <polygon points="49,30 37,27.2 39.5,30 37,32.8" fill="#C09030" opacity="0.32"/>
+
+  <!-- West arrow — faded -->
+  <polygon points="5,30 17,27.2 14.5,30 17,32.8" fill="#C09030" opacity="0.32"/>
+
+  <!-- Centre dot -->
+  <circle cx="27" cy="30" r="2.6" fill="#C09030"/>
+
+  <!-- ── SEPARATOR ──────────────────────────────────────────── -->
+  <line x1="58" y1="13" x2="58" y2="47" stroke="#C09030" stroke-width="0.7" opacity="0.42"/>
+
+  <!-- ── WORDMARK ───────────────────────────────────────────── -->
+  <!--
+    "Cultural" — Cormorant Garamond italic, light, cream/currentColor
+    "Geeks"    — Josefin Sans, gold, slightly smaller, same baseline
+  -->
+  <text
+    x="70" y="41"
+    font-family="'Cormorant Garamond', 'Palatino Linotype', Georgia, serif"
+    font-size="29"
+    font-style="italic"
+    font-weight="300"
+    fill="currentColor"
+    xml:space="preserve"
+  >Cultural<tspan
+      font-family="'Josefin Sans', Arial, sans-serif"
+      font-size="22"
+      font-style="normal"
+      font-weight="400"
+      letter-spacing="0.5"
+      fill="#C09030"
+      dx="5"
+    >Geeks</tspan>
+  </text>
+
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 84" width="260" height="84"
+  role="img" aria-label="CulturalGeeks — Typographic Logo">
+  <title>CulturalGeeks</title>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&amp;family=Josefin+Sans:wght@300&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- ── TYPOGRAPHIC LOGO ───────────────────────────────────── -->
+
+  <!--
+    "Cultural" — large, italic, Cormorant Garamond light
+    Centered horizontally, anchored at y=44
+  -->
+  <text
+    x="130" y="44"
+    text-anchor="middle"
+    font-family="'Cormorant Garamond', 'Palatino Linotype', Georgia, serif"
+    font-size="36"
+    font-style="italic"
+    font-weight="300"
+    fill="currentColor"
+  >Cultural</text>
+
+  <!-- Gold dividing rule — narrower than full width for editorial precision -->
+  <line x1="22" y1="53" x2="238" y2="53" stroke="#C09030" stroke-width="0.8"/>
+
+  <!--
+    "GEEKS" — small, Josefin Sans, wide letter-spacing, gold
+    Centered. textLength compensates for trailing letter-spacing offset.
+  -->
+  <text
+    x="130" y="70"
+    text-anchor="middle"
+    font-family="'Josefin Sans', Arial, sans-serif"
+    font-size="9.5"
+    font-weight="300"
+    letter-spacing="7"
+    fill="#C09030"
+    textLength="72"
+    lengthAdjust="spacing"
+  >GEEKS</text>
+
+  <!-- Flanking short rules either side of GEEKS for editorial balance -->
+  <line x1="22"  y1="70" x2="80"  y2="70" stroke="#C09030" stroke-width="0.5" opacity="0.38"/>
+  <line x1="180" y1="70" x2="238" y2="70" stroke="#C09030" stroke-width="0.5" opacity="0.38"/>
+
+</svg>
