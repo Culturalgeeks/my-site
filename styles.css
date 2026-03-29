@@ -322,6 +322,34 @@ em { font-style: italic; }
   max-width: 600px;
 }
 
+/* Hero callout stat */
+.hero__callout {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin: 24px 0 22px;
+  max-width: 520px;
+  padding: 18px 22px;
+  border-left: 2px solid var(--c-gold);
+  background: rgba(191, 143, 49, 0.06);
+}
+.hero__callout-stat {
+  font-family: var(--f-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--c-gold);
+  white-space: nowrap;
+  line-height: 1;
+}
+.hero__callout-text {
+  font-family: var(--f-label);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-cream-dim);
+  line-height: 1.55;
+}
+
 /* Scroll indicator */
 .hero__scroll {
   position: absolute;
@@ -692,6 +720,43 @@ em { font-style: italic; }
 
 /* ─── 11. TRUST BAND (replaces fake testimonials — P0-4) ────── */
 .trust-band { background: var(--c-bg-3); }
+
+.trust-stats {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-top: var(--sp-xl);
+  border-top: 1px solid var(--c-divider);
+  border-bottom: 1px solid var(--c-divider);
+}
+.trust-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 24px;
+  border-right: 1px solid var(--c-divider);
+}
+.trust-stat:last-child { border-right: none; }
+.trust-stat__num {
+  font-family: var(--f-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--c-gold);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.trust-stat__label {
+  font-family: var(--f-label);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-cream-dim);
+  line-height: 1.6;
+  max-width: 180px;
+}
+
 .trust-sectors {
   display: flex;
   flex-wrap: wrap;
@@ -1253,4 +1318,8 @@ em { font-style: italic; }
   .chat-window, .proposal-window { bottom: 90px; right: 20px; }
   .book__stats      { gap: 24px; flex-wrap: wrap; }
   .footer__inner    { flex-direction: column; text-align: center; }
+  .trust-stats      { flex-direction: column; }
+  .trust-stat       { border-right: none; border-bottom: 1px solid var(--c-divider); padding: 24px 20px; }
+  .trust-stat:last-child { border-bottom: none; }
+  .hero__callout    { flex-direction: column; gap: 8px; }
 }
